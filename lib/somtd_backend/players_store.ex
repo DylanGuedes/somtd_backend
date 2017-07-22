@@ -12,4 +12,8 @@ defmodule SoM.PlayersStore do
   def get(store, key) do
     Agent.get(store, fn(state) -> Map.get(state, key) end)
   end
+
+  def all(store) do
+    Agent.get(store, fn(state) -> Map.to_list(state) end)
+  end
 end
