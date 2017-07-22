@@ -1,4 +1,4 @@
-# SoMTDBackend
+# Strife of Mythology Backend Documentation
 
 **TODO: Add description**
 
